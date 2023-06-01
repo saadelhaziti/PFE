@@ -1,0 +1,149 @@
+    .info{
+    padding-left: 5vw;
+
+}
+.info-title{
+    padding-top: 10px;
+    color: var(--main-color);
+    font-family: "Arial", sans-serif;
+    font-size:1.75rem;
+    
+}
+.inf {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    justify-content: center;
+    left: 5%;
+    gap: 50px;
+}
+
+.inf1>ul {
+    display: flex;
+    flex-direction: column;
+    color: var(--main-color-opacity);
+    list-style: none;
+    gap: 1px;
+    height: max-content;
+}
+
+.inf1>ul>li {
+    padding: 10px 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.inf1>ul>li:hover {
+    color: var(--main-color);
+    border: var(--main-color-opacity) solid;
+    border-width: 0px 3px 0px 0px;
+    cursor: pointer;
+}
+
+.info .active {
+    color: var(--main-color);
+    border: solid var(--main-color);
+    border-width: 0px 3px 0px 0px;
+}
+
+.inf2 {
+    display: grid;
+    grid-template-columns: 65% 25%;
+    gap: 10px;
+    margin: 0 5%;
+}
+
+.inf2-title {
+    font-family: "Arial", sans-serif;
+    font-size: 1.5em;
+    color: var(--main-color);
+}
+
+.inf2 ul {
+    padding-left: 2.5rem;
+    list-style-type: circle;
+    width: 95%;
+}
+
+.inf2>ul li {
+    list-style-type: disc;
+}
+
+.inf2-img img{
+    width: 100%;
+    height: auto;
+}
+
+.inf2-txt .desc{
+    color: var(--txt2);
+}
+
+
+
+.uit-fsk {
+    height: 50vh;
+    width: 100%;
+}
+.uit-fsk img{
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width:950px) {
+    .inf {
+        display: flex;
+        flex-direction: column;
+        margin: auto 5%;
+        gap: 0px;
+    }
+    .inf1 {
+        width: 70%;
+        margin-left: 15%;
+    }
+    .inf1>ul{
+        display: flex;
+        flex-direction: column;
+        color: var(--main-color-opacity);
+       
+        list-style: none;
+        gap: 1px;
+        height: max-content;
+    }
+    .inf1>ul>li:hover {
+        cursor: pointer;
+        color:white;
+
+    }
+    .info .active {
+    color:white;
+    background:var(--main-color) ;
+   
+
+}
+    .inf2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 30px;
+    }
+
+    .inf2-img{
+        text-align: center;
+
+    }
+    .inf2-img img{
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:755px) {
+    .inf {
+    
+    }
+
+    .inf2 {
+        min-height: 40vh;
+    }
+   
+}

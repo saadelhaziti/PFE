@@ -1,0 +1,167 @@
+.p {
+    min-height: 100vh;
+    min-width: 100%;
+    color: var(--color-txt-p1);
+    background-color: var(--bg);
+    overflow: hidden;
+}
+.p {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding:5%;
+    margin-top: 2.5%;
+}
+.p-txt h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--cl-h4);
+}
+.p-titre {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--cl-h2);
+    margin: 0;
+    text-transform: uppercase;
+    animation: slideInLeft 1s ease;
+}
+.p-button {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 0;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+.p-button>a {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    background: var(--bg-btn);
+    color: var(--txt-btn);
+}
+.p-button>a:hover {
+    background-color: #fff;
+    color: #030175;
+    text-decoration: none;
+}
+.p-button>a:active {
+    transform: translateY(2px);
+}
+
+/* Style pour le bouton "S'inscrire" */
+.btn-secondary {
+    background-color: #fff;
+    color: #030175;
+    border: 2px solid #030175;
+}
+
+.p-image {
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    text-align: center;
+    padding-right: 10%;
+}
+.p-image img {
+    width: 120%;
+    height: auto;
+    animation: slideInRight 1s ease;
+}
+
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes slideInRight{
+    from{
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+}
+
+@media (max-width:1035px) {
+    .p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-txt {
+        transform: scale(1.1);
+        padding: 17% 0 0 10%;
+        text-align: center;
+    }
+    .p-titre {
+        font-size: 35px;
+    }
+    .p-image {
+        width: 80%;
+    }
+    .p-button {
+        justify-content: center;
+    }
+}
+
+@media (max-width:650px) {
+    .p {}
+
+    .p-txt {
+        transform: scale(1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 25% 0 0 0;
+    }
+    .p-titre {
+        font-size: 30px;
+    }
+    .p-image {
+        width: 80%;
+    }
+}
+@media (max-width:450px) {
+    .p {
+        height: 100%;
+        min-height: 80vh;
+    }
+    .p-txt {
+        padding:40% 0 0 0;
+    }
+    .p-titre {
+        font-size: 25px;
+    }
+    .p-image {
+        width: 80%;
+    }
+    .p-button>a {
+        
+        padding: 8px 16px;
+        font-size: 12px;
+        font-weight: bold;
+
+    }
+    
+}

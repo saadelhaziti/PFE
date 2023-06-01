@@ -1,0 +1,12 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif; 
+}
+.App {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+

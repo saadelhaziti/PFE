@@ -1,0 +1,19 @@
+[
+    {
+        "name":"COURS",
+        "nbrHeurs":30
+    },
+    {
+        "name":"TD ET TP",
+        "nbrHeurs":60
+    },
+    {
+        "name":"EVALUATION",
+        "nbrHeurs":10
+    },
+    {
+        "name":"VH GLOBAL",
+        "nbrHeurs":100
+    }
+]
+

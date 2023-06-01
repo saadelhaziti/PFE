@@ -1,0 +1,16 @@
+.user-nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px ;
+    background: #0c22f0;
+    width: 100%;
+}
+.user-nav >*{
+    width: 30%;
+}
+.user-text{
+padding: 5%;
+text-transform: uppercase;
+color: var(--txt1);
+}

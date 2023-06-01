@@ -1,0 +1,28 @@
+.Queu {
+    display: grid;
+    min-width: 100%;
+    width: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px 10% 10px 8%;
+    background: #090909e3;
+    color: var(--txt2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Acc-rapide>p {
+    line-height: 20px;
+    vertical-align: top;
+}
+
+div>h4 {
+    color:  #ffffff  ;
+}
+.contactez-nous>p{
+    width: max-content;
+    border-bottom: rgb(74, 60, 229) 1px solid;
+}
+.Acc-rapide>p {
+    width: max-content;
+    border-bottom: rgb(74, 60, 229) 1px solid;
+}

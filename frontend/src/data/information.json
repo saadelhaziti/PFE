@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Conditions d’accés à BDAI",
+        "descreption": "L'accès à la formation BDAI est ouvert aux étudiants et professionnels titulaire de",
+        "conditoin": [
+            "DUT, BTS, DTS (ISTA) ou diplôme équivalent",
+            "DEUST, DEUG (SMI, SMP , SMC…) ou diplôme équivalent."
+        ],
+        "email": [],
+        "msg": "NB : La sélection se fait sur étude de dossier et entretien",
+        "img": "/static/media/condition.jpg"
+    },
+    {
+        "name": "Dossier de candidature",
+        "descreption": "",
+        "conditoin": [
+            "Demande + CV + 2 photos d’identité",
+            "2 copies du BAC+ dernier diplôme (légalisées )",
+            "2 copies de relevés de notes (légalisées)",
+            "2 Copies de la CIN (légalisées)",
+            "1 Copie de la Contrat de Formation Continue(légalisées)"
+        ],
+        "email": [
+            "contact@stkatek-uit.com"
+                ],
+        "msg": "Veuillez envoyer une copie du dossier scannée au mail suivant :",
+        "img": "/static/media/dossier.png"
+    },
+    {
+        "name": "Coût de formation",
+        "descreption": "",
+        "conditoin": [
+            "16000 Dh seulement, payé sur le compte d’université."
+        ],
+        "email": [],
+        "msg": "Clicker sur Pré-inscription pour postuler en ligne",
+        "img": "/static/media/cout2.png"
+    },
+    {
+        "name": "Dates importantes",
+        "descreption": "",
+        "conditoin": [
+            "Dernier délai de dépôt des dossiers : à partir du 15 Octobre 2022 au Bureau 7 du dépratement informatique",
+            "Date d'entretien :",
+            "Démarrage de la formation        "
+        ],
+        "email": [],
+        "msg": "",
+        "img": "/static/media/date.jpg"
+    },
+    {
+        "name": "Compétences à acquerir",
+        "descreption": "Le lauréat de LUS- IBDAI sera capable, seul ou dans le cadre d'une équipe, de :",
+        "conditoin": [
+            "Gérer les données massives en utilisant le Big Data Analytics algorithms",
+            "Analyser et prédire les données dans le system",
+            "Monter un projet décisionnel tout en utilisant le Data Mining et Machine Leraning",
+            "Administrateur de bases de données bases de données",
+            "Maitriser le processus de conception et d’implémentation d’un système décisionnel.",
+            "Gérer des plateformes Cloud dédié à une entreprise",
+            "Pratiquer les données dans les bases NoSQL"
+        ],
+        "email": [],
+        "msg": "",
+        "img": "/static/media/comp.png"
+    }
+]
